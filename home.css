@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    margin:0%
+}
+header{
+	background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+nav{
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+    padding-top: 1%;
+    width: 100%;
+    padding-bottom: 1%;
+    text-align: center; 
+}
+
+.droit{
+    background-image: url(mordor_tower_.gif);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    float:right;
+    margin-right: -2.5%;
+    padding-bottom: 30%;
+    width: 14.5%;
+    background-color: black;
+}
+.gauche{
+    background-image: url(modor_tower_gauche.gif);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    float:left;
+    margin-left: 0%;
+    padding-bottom: 30%;
+    width: 14.5%;
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    display:flex;  
+    flex-wrap: wrap; 
+    margin-left: 20%;
+    margin-right: 20%;
+           
+}
+
+article{
+    color: aliceblue;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 14%;
+    border-style:groove;
+    
+     
+}
+.footer {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 100%;
+    color: rgba(175, 37, 37, 0.782);
+    padding-left: 43%;
+  }
