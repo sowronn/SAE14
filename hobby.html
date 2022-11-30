@@ -2,24 +2,24 @@
 <html>
 
 <head>
-	<link href="hobby.css" rel="stylesheet" text="text/css" />
+	<link href="cssall.css" rel="stylesheet" text="text/css" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HOBBY</title>
 </head>
 
 <body>
-	<header id="top">my website</header>
-	<nav>
-		<button onclick="document.location='home.html'">page d'accueil </button>
+	<header id="top" class="header_rouge">my website</header>
+	<nav class="class_rouge">
+		<button onclick="document.location='index.html'">page d'accueil </button>
 		<button onclick="document.location='presentation.html'">page présentation</button>
 	</nav>
 
 	<aside class="droit">
-		<img src="mordor_tower_.gif" alt="mordor tower">
+		<img src="/image/mordor_tower_.gif" alt="mordor tower">
 	</aside>
 	<aside class="gauche">
-		<img src="modor_tower_gauche.gif" alt="mordor tower">
+		<img src="/image/modor_tower_gauche.gif" alt="mordor tower">
 		<li><a href="#ages" style="color: white">Les differents ages principaux</a></li>
 		<br>
 		<li><a href="#persbien" style="color: rgb(255, 255, 255)">Les personnages du coté du bien et des Valar</a></li>
@@ -171,7 +171,7 @@
 				<p>voila quelque personnage que vous devriez connaitre:
 				</p>
 			</article>
-		<section>
+		<section class="goodguys">
 			<article class="art" id="persbien">
 				<h3>Mithrandir ou encore Gandalf</h3>
 				<p>Mithrandir était le nom que les Elfes et les Dúnedain du Gondor donnèrent à l'Istar Gandalf. En sindarin, cela signifiait « Pélerin Gris », allusion évidente à son 
@@ -250,6 +250,8 @@
 					Terre du Milieu, probablement pour s'éteindre à Tol Eressëa.
 				</p>
 			</article>
+		</section>
+		<section class="badguys">
 			<article class="art" id="perspasbien">
 				<h3>Morgoth</h3>
 				<p>Morgoth, le Noir Ennemi, est le nom que Fëanor donna à Melkor après que celui-ci eut volé les Silmarils et se fut enfui à Angband. Fëanor incita alors son peuple, les Noldor, à quitter 
@@ -293,7 +295,7 @@
 	</div>
 	<div class="footer">
 		<p> website creat by louison fink©
-		<a href="#top" style="color: rgb(255, 255, 255)">retours haut de page</a></p>
+		<a href="#header_rouge" style="color: rgb(255, 255, 255)">retours haut de page</a></p>
 	</div>
 </body>
 

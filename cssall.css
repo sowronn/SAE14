@@ -2,14 +2,24 @@ body{
     background-color: black;
     margin:0%
 }
-header{
+
+.header_rouge{
 	background-color: rgb(255, 0, 0);
     text-align: center;
     margin-bottom: 0px;
     line-height: 40px;
     margin-top: 0px;
 }
-nav{
+
+.header_bleu{
+	background-color: rgb(0, 153, 255);
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+.class_rouge{
     background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
     padding-top: 1%;
     width: 100%;
@@ -17,16 +27,27 @@ nav{
     text-align: center; 
 }
 
+.class_bleu{
+    background-image: linear-gradient(rgb(0, 153, 255), rgb(0, 0, 0));
+    padding-top: 1%;
+    width: 100%;
+    padding-bottom: 1%;
+    text-align: center; 
+}
+
 .droit{
+    background-image: url(/image/mordor_tower_.gif);
     background-repeat: no-repeat;
     margin-top: 5%;
     float:right;
-    margin-right: 0px;
+    margin-right: 0;
     padding-bottom: 30%;
     width: 14.5%;
     background-color: black;
 }
+
 .gauche{
+    background-image: url(/image/modor_tower_gauche.gif);
     background-repeat: no-repeat;
     margin-top: 5%;
     float:left;
@@ -36,22 +57,18 @@ nav{
     background-color: rgb(0, 0, 0);
 }
 
-
-div{    
-    margin-left: 15%;
-    margin-right: 15%;
-           
+.index{
+    display:flex;  
+    flex-wrap: wrap; 
+    margin-left: 20%;
+    margin-right: 20%;       
 }
 
 .divspace{
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 3%;
 }
-
-section {
-    display: flex;
-    flex-wrap: wrap;   
-}
-
 
 article{
     color: aliceblue;
@@ -59,6 +76,12 @@ article{
     padding: 1%;
     border-radius: 14%;
     border-style:groove;
+}
+
+.photo{
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
 }
 
 .art{
@@ -73,10 +96,6 @@ article{
 h3{
     text-align: left;
     padding-left: 5%;
-}
-
-.goodguys{
-    color: rgb(39, 178, 34);
 }
 
 .footer {
