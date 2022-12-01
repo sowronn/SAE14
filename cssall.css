@@ -36,7 +36,7 @@ body{
 }
 
 .droit{
-    background-image: url(/image/mordor_tower_.gif);
+    background-image: url(image/mordor_tower_.gif);
     background-repeat: no-repeat;
     margin-top: 5%;
     float:right;
@@ -47,7 +47,7 @@ body{
 }
 
 .gauche{
-    background-image: url(/image/modor_tower_gauche.gif);
+    background-image: url(image/modor_tower_gauche.gif);
     background-repeat: no-repeat;
     margin-top: 5%;
     float:left;
