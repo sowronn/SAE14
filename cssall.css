@@ -71,6 +71,11 @@ body{
     margin-bottom: 3%;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
 article{
     color: aliceblue;
     margin: 1%;
@@ -112,6 +117,7 @@ div.container {
     display:inline-block;
     flex-basis: calc(100% / 2 - 70px );
 }
+
 .titre{
     padding: 3%;
     border-radius: 40%;
@@ -139,4 +145,4 @@ h3{
     width: 100%;
     color: rgb(255, 0, 0);
     padding-left: 45%;
-  }
+}
